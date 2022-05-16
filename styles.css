@@ -61,3 +61,16 @@ figcaption {
 .quote-wrapper {
     margin-bottom: 30px;
 }
+/* Media Queries */
+@media only screen and (max-width: 720px) {
+    h1 {
+        font-size: 32px;
+    }
+    p {
+        font-size: 26px;
+    }
+    .quote-container {
+        min-height: 60vh;
+        max-width: 100%;
+    }
+}
