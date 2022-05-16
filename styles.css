@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+.quote-container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #1d3557;
+    color: white;
+    font-size: 18px;
+    width: 150px;
+    margin: 0 auto;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Koulen', cursive;
+}
+h1 {
+    font-size: 48px;
+    margin: 20px;
+    padding: 20px;
+    color: #1d3557;
+    text-align: center;
+}
+p {
+    font-size: 42px;
+    background-color: #a8dadc;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+p::before {
+    content: " “ ";
+}
+p::after {
+    content: " ” ";
+}
+figcaption {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    background-color: #457b9d;
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.quote-wrapper {
+    margin-bottom: 30px;
+}
